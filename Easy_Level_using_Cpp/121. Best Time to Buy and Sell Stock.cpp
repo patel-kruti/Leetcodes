@@ -1,7 +1,10 @@
 // Problem - 121. Best Time to Buy and Sell Stock
 // Link - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 // Runtime 0ms Beats 100.00% Analyze Complexity Memory 96.00 MB Beats 98.69%
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 // Solution : 
+
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
