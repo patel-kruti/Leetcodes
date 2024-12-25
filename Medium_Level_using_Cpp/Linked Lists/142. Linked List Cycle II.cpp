@@ -4,14 +4,14 @@
 // Time Complexity - O(n) - The slow and fast pointers traverse the list at most twice: once to detect the cycle and once to find the start of the cycle.
 // Space Complexity - O(1) - Only constant extra space is used for the pointers.
 // Solution - 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
+
+//  Definition for singly-linked list.
+ struct ListNode {
+      int val;
+      ListNode *next;
+      ListNode(int x) : val(x), next(NULL) {}
+  };
+ 
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
