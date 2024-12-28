@@ -27,3 +27,37 @@ public:
     }
 };
 
+// Memoization solution - Memory Limit Exceeded
+class Solution {
+    private:
+    int recursiveSolution(vector<int>dp, int n){
+        if (n <= 2){
+            return n;
+        }
+        if(dp[n] == -1){
+            dp[n] = recursiveSolution(dp, n-1) + recursiveSolution(dp, n-2);
+        }
+
+        return dp[n];
+    }
+public:
+    int climbStairs(int n) {
+        if(n <= 2){
+            return n;
+        }
+        vector<int> dp(n+1, -1);
+        return recursiveSolution(dp, n);
+    }
+};
+
+// Recursive Solution - Time Limit Exceeded
+class Solution {
+public:
+    int climbStairs(int n) {
+        if(n <= 2){
+            return n;
+        }
+        return climbStairs(n - 1) + climbStairs(n - 2);
+    }
+};
+
