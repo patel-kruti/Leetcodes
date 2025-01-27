@@ -1,6 +1,6 @@
 // Problem : 355. Design Twitter
 // Link: https://leetcode.com/problems/design-twitter/
-// Topics: Hash Table, Heap, Design
+// Topics: Hash Table, Heap, Design, Priority_Queue
 // Time and Space Complexity: 
 // Post a Tweet:
 // Time: O(1) to add the tweet to the list.
