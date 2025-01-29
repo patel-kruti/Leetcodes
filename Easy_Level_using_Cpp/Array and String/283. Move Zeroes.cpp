@@ -18,7 +18,7 @@ public:
         p | c | Action
         1 | 1 | p++ , c++
         1 | 0 | p++ , c++
-        0 | 1 | nums[p] = nums[c] , nums[c] = 0, p++
+        0 | 1 | nums[p] = nums[c] , nums[c] = 0, p++ , c++
         0 | 0 | c++ unil c < len(nums) && nums[c] == 0
         */
         while(c < nums.size()){
