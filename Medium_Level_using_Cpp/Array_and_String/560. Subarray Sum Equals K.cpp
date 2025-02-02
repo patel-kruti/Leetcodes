@@ -1,6 +1,6 @@
 // Problem : 560. Subarray Sum Equals K
 // Link : https://leetcode.com/problems/subarray-sum-equals-k/
-// Topic : Array and String
+// Topic : Array, Hash Map
 // Difficulty : Medium
 // Time Complexity : O(n)
 // Space Complexity : O(n)
