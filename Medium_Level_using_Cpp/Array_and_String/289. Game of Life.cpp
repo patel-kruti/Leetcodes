@@ -1,6 +1,6 @@
 // Problem : 289. Game of Life
 // Link : https://leetcode.com/problems/game-of-life/
-// Topic : Array, In-place
+// Topic : Array, In-place, Matrix, Simulation
 // Difficulty : Medium
 // Time Complexity : O(m*n)
 // Space Complexity : O(1)
