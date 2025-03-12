@@ -2,7 +2,7 @@
 // Link: https://leetcode.com/problems/alternating-groups-ii/
 // Topic: Array, Sliding Window
 // Difficulty: Medium
-// Time Complexity: O(n)
+// Time Complexity: O(nk)
 // Space Complexity: O(n)
 // Solution:
 class Solution {
